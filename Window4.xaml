@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfTasks.Task4Window"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Задание 4" Height="250" Width="400">
+    <Grid>
+        <Label Content="Введите зарплату:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10"/>
+        <TextBox Name="SalaryInput" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="150,10,0,0" Width="22"/>
+
+        <Label Content="Введите выслугу лет:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,50"/>
+        <TextBox Name="YearsOfServiceInput" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="150,50,0,0" Width="22"/>
+
+        <Button Content="Рассчитать премию" Click="CalculateBonus_Click" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,100,0,0"/>
+
+        <TextBlock Name="ResultBonusLabel" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,150,0,0"/>
+    </Grid>
+</Window>
